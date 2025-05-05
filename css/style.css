@@ -1,0 +1,145 @@
+.btn-fill-primary{
+    background-color:#3C598A ;
+	margin-top: 30px;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none
+}
+.btn-fill-primary:hover{
+	background-color:#E4E4E4 ;
+    color: #3C557D
+}
+.btn-outline-primary
+{
+    border: 2px solid #F87503;
+    background: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+     transition: all .5s
+}width: 100%; min-height: 600px; background: url("../images/bg2.png"); background-repeat: no-repeat; background-size: cover; background-position: bottom centerwidth: 100%; min-height: 600px; background: url("../images/bg2.png"); background-repeat: no-repeat; background-size: cover; background-position: bottom centerwidth: 100%; min-height: 600px; background: url("../images/bg2.png"); background-repeat: no-repeat; background-size: cover; background-position: bottom centerwidth: 100%; min-height: 600px; background: url("../images/bg2.png"); background-repeat: no-repeat; background-size: cover; background-position: bottom centerwidth: 100%; min-height: 600px; background: url("../images/bg2.png"); background-repeat: no-repeat; background-size: cover; background-position: bottom center@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap');
+
+.commissioner{
+  font-family: "Commissioner", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "FLAR" 0,
+    "VOLM" 0;
+}
+h1 h2 h3{
+	font-family: "Commissioner", sans-serif;
+}
+p{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
+}
+.navbar .navbar-nav .nav-link {
+
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: #ACACAC;
+}
+.navbar .navbar-nav .nav-item {
+  position: relative;
+}
+.navbar .navbar-nav .nav-item::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #F5F5F5;
+  width: 0%;
+  content: "";
+  height: 2px;
+  transition: all 0.3s;
+}
+
+.navbar .navbar-nav .nav-item:hover::after {
+  width: 100%;
+}
+.containertext {
+  position: relative;      /* Cho phép phần tử con định vị tuyệt đối */
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+}
+}
+
+.bottom-left-text {
+  position: absolute;
+  bottom:1px;
+  left: 10px;
+  font-weight: bold;
+}
+.icon{
+	margin-top: 20px; font-size: 20px; padding-right: 10px
+}
+
+.image-box {
+  width: 400px;
+  height: 300px;
+  overflow: hidden;         /* Giữ hình không vượt ra ngoài box */
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  position: relative;
+}
+
+.image-box img {
+  object-fit: cover;         /* Cắt hình cho vừa khung */
+  transition: transform 0.5s ease;
+  max-width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.image-box:hover img {
+  transform: scale(1.2);     /* Phóng to khi hover */
+  filter: brightness(70%);	
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.image-box:hover .overlay {
+  opacity: 1;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+#section4{
+	width: 100%; min-height: 600px; background: url("../images/bg2.png"); background-repeat: no-repeat; background-size: 100%; background-position: bottom right
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+body {
+  overflow-x: hidden;
+}
